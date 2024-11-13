@@ -10,12 +10,13 @@ header{
     padding: 10px 0px;
     display: flex;
     justify-content: end;
+    font-weight: bold;
 
 }
 
 nav{
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 a{   
@@ -56,11 +57,32 @@ a{
 
 #agenda, #servicos{
     width: 50%;
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
+  
+}
+
+#agenda{
+    padding-left:50px;
 }
 
 .tituloArtigo{
     width: 100%;
-    padding: 10px 0px;
+    padding: 10px 40px;
     background-color: black;
-    color: white
+    color: white;
+    font-weight: bold;
 }
+
+#introducao{
+    width: 100%;
+    background-color: rgb(184, 175, 175);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items:start;
+    font-weight: bold;
+}
+
