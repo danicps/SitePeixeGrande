@@ -1,88 +1,133 @@
-*{
-    padding:0%;
-    margin:0%;
+* {
+    margin: 0%;
+    padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    width: 100%;
-    background-color:rgb(184, 175, 175);
-    padding: 10px 0px;
+body {
+    background-color: #e8e6e6;
+}
+
+header {
+    background-color: #e8e6e6;
     display: flex;
-    justify-content: end;
-    font-weight: bold;
-
-}
-
-nav{
-    display: flex;
-    gap: 30px;
-}
-
-a{   
-    text-decoration: none;
-    color:black
-}
-
-/* FIM HEADER */
-
-#banner{
-    width: 100%;
-    height: 200px;
-    display: flex;
-}
-
-#bannerDireito{
-    width: 70%;
-    height: 100%;
-}
-
-#bannerEsquerdo{
-    width: 30%;
-    height: 100%;
-}
-
-#bannerEsquerdo img, #bannerDireito img{
-    width: 100%;
-    height: 100%;
-
-}
-
-/* FIM BANNER */ 
-
-#artigo{
-    width: 100%;
-    display: flex;
-}
-
-#agenda, #servicos{
-    width: 50%;
-    gap: 10px;
     flex-direction: column;
+}
+
+#navHeader {
+    text-align: right;
+    font-size: 30px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* margin-right: 35px; */
+    margin: 20px;
+    
+}
+
+#navHeader a {
+    margin-left: 55px;
+    text-decoration: none;
+    color: black;
+}
+
+#imagens {
+    height: 466.9px;
+    background-color: rgb(0, 0, 0);
+}
+
+#img1, #img2 {
+    height: 466.9px;
+}
+
+img {
+    height: 4px;
+}
+
+header p {
+    margin: 15px;
+    padding-left: 35px;
+    font-size: 27px;
+}
+
+main {
     display: flex;
-  
+    justify-content: space-around;
+    align-items: space-between;
 }
 
-#agenda{
-    padding-left:50px;
+h1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px 0px 15px 50px;
 }
 
-.tituloArtigo{
+.text1 {
+    width: 50%;
+    margin: 20px 0px 10px 50px;
+}
+
+.text1 h3, .text1 h4 {
+    margin-bottom: 20px;
+}
+
+.text1 p {
+    margin-bottom: 20px;
+}
+
+#text2 {
+    margin-left: -600px;
+}
+
+.text2 {
+    width: 60%;
+    margin: 20px 50px 0px 50px;
+}
+
+.text2 h3, .text2 h4 {
+    margin-bottom: 20px;
+}
+
+.text2 p {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#mapa {
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    padding: 10px 40px;
+    padding: 20px;
+}
+
+#mapa nav {
+    display: flex;
+    flex-direction: column;
+    font-size: 21px;
+    text-decoration: none;
+    gap: 10px;
+    
+}
+
+#mapa nav a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
     background-color: black;
     color: white;
-    font-weight: bold;
+    font-size: 5px;
+    padding: 20px 0px 20px 50px;
 }
 
-#introducao{
-    width: 100%;
-    background-color: rgb(184, 175, 175);
-    padding: 10px 40px;
-    display: flex;
-    justify-content: flex-start;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items:start;
-    font-weight: bold;
+footer p{
+    font-size: 13px;
 }
 
+#mapa nav a:hover{
+    transition: 0.3s;
+    font-size: 30px;
+}
